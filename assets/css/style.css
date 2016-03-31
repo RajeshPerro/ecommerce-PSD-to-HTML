@@ -1,0 +1,131 @@
+
+body{
+    font-size: 14px;
+}
+*{
+margin: 0;
+padding: 0;
+}
+
+.header-all{
+    width: 100%;
+    height: auto;
+
+}
+.header-top{
+    width: 80%;
+    min-height:38px;
+    margin: 0px auto;
+    height: 10%;
+    padding-top: 8px;
+    box-sizing: border-box;
+}
+
+.header-top-info{
+    float: left;
+    width: 40%;
+    margin: 0px auto;
+}
+
+.header-top-info ul li{
+    display: inline;
+    padding: 5px;
+
+}
+
+
+
+.header-top-menu{
+    width: 32%;
+    float: right;
+    margin: 0px auto;
+}
+.header-top-menu ul li{
+    display: inline;
+    padding: 5px;
+
+}
+
+
+.header-bottom{
+   background: #eee;
+    padding: 45px 0 92px;
+    margin: 0px auto;
+
+
+}
+
+.header-bottom-content{
+    margin: 0px auto;
+    width: 80%;
+
+
+}
+
+.header-bottom-logo{
+    overflow: hidden;
+   float: left;
+
+}
+.name-div{
+    float: left;
+    box-sizing: border-box;
+    padding-top: 10px;
+
+}
+
+.name-div h1{
+text-transform: uppercase;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 33px;
+    font-family: serif;
+    text-shadow: 1px 0 1px #777;
+}
+.name-div p{
+    padding-top: 7px;
+    text-transform: uppercase;
+    font-size: 12px;
+
+}
+.logo-div{
+    float: left;
+    margin-left: 8px;
+}
+.header-bottom-menu{
+    float:left;
+    margin-left: 200px;
+    padding-top: 15px;
+}
+.slash{
+color: #f55856;
+}
+
+/*Card start*/
+
+.header-bottom-card{
+    float: right;
+    padding-right: 35px;
+}
+.header-bottom-card-text{
+    float: left;
+}
+.header-bottom-card-text p{
+    font-weight: 600;
+}
+ .header-bottom-card-text h6{
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 16px;
+
+}
+
+ .header-bottom-card-img img{
+    width: 30px;
+    height: 30px;
+}
+.header-bottom-card-img{
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
